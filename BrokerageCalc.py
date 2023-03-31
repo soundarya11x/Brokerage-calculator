@@ -5,9 +5,9 @@ trade_type = st.selectbox(
 exchange = st.radio(
     "Select Exchange",
     ("NSE","BSE"))
-buy =  float(st.text_input('Buy'))
-sell =  float(st.text_input('Sell'))
-quantity = int(st.text_input('Quantity'))
+buy =  float(st.number_input('Buy'))
+sell =  float(st.number_input('Sell'))
+quantity = int(st.number_input('Quantity'))
 company = st.selectbox(
 	'Select a Stock Broker',
 	('Zerodha','Groww','Angel','Upstox'))
